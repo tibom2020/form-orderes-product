@@ -8,7 +8,7 @@ import Login from './components/Login';
 import OrderHistory from './components/OrderHistory';
 import { postOrderToGoogleSheet } from './services/googleSheetService';
 import { getOrders, saveOrders } from './utils/storage';
-import { CheckCircleIcon, ExclamationCircleIcon } from './components/icons';
+import { ExclamationCircleIcon } from './components/icons';
 
 const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby9FjCzFRhWSWyWrGw4FLh42t4IQg8_jObpAfMKY4uyBJ1nm3HUbthzWJu9cbczX5ipqg/exec';
 
