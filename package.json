@@ -1,0 +1,7 @@
+
+{
+  "name": "form-dat-hang-2026",
+  "version": "1.0.0",
+  "description": "Một ứng dụng đặt hàng đơn giản giúp nhân viên tạo và gửi đơn hàng, với dữ liệu được tự động lưu vào Google Sheets.",
+  "private": true
+}
