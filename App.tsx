@@ -293,7 +293,7 @@ const App: React.FC = () => {
                     <button onClick={() => setProductTypeFilter('Import')} className={getFilterButtonClass('Import')}>Hàng Import</button>
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
               {filteredProducts.map(p => <ProductCard key={p.id} product={p} onAddToCart={handleAddToCart} />)}
             </div>
           </div>
